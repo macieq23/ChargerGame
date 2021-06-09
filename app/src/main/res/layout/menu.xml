@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:visibility="visible">
+
+    <Button
+        android:id="@+id/btnPlay"
+        android:layout_width="222dp"
+        android:layout_height="82dp"
+        android:text="@string/button"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toTopOf="@+id/btnExit"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.774" />
+
+    <Button
+        android:id="@+id/btnExit"
+        android:layout_width="139dp"
+        android:layout_height="59dp"
+        android:layout_marginBottom="72dp"
+        android:text="@string/buttonExit"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/tvRecord2"
+        android:layout_width="100dp"
+        android:layout_height="27dp"
+        android:gravity="center"
+        android:text="@string/tvRecord2"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toTopOf="@+id/btnExit"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.26"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnPlay"
+        app:layout_constraintVertical_bias="0.633" />
+
+    <TextView
+        android:id="@+id/tvRecord"
+        android:layout_width="100dp"
+        android:layout_height="27dp"
+        android:gravity="center"
+        android:text="@string/tvRecord"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toTopOf="@+id/btnExit"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.26"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnPlay"
+        app:layout_constraintVertical_bias="0.333" />
+
+    <TextView
+        android:id="@+id/tvSpeed"
+        android:layout_width="100dp"
+        android:layout_height="27dp"
+        android:gravity="center"
+        android:text="@string/tvSpeed"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toTopOf="@+id/btnExit"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.74"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnPlay"
+        app:layout_constraintVertical_bias="0.333" />
+
+    <TextView
+        android:id="@+id/tvSpeed2"
+        android:layout_width="100dp"
+        android:layout_height="27dp"
+        android:gravity="center"
+        android:text="@string/tvSpeed2"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toTopOf="@+id/btnExit"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.74"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnPlay"
+        app:layout_constraintVertical_bias="0.633" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

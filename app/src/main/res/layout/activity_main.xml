@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#515151"
+    tools:context=".MainActivity"
+    android:id="@+id/main">
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="206dp"
+        android:layout_height="740dp"
+        android:alpha="0"
+        android:text="@string/button2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="206dp"
+        android:layout_height="740dp"
+        android:alpha="0"
+        android:text="@string/button2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/arrow"
+        android:layout_width="115dp"
+        android:layout_height="169dp"
+        android:contentDescription="@string/strzaleczka"
+        android:foregroundGravity="center"
+        android:rotation="0"
+        android:rotationX="0"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.6"
+        app:srcCompat="@drawable/strzalka" />
+
+
+    <ImageView
+        android:id="@+id/denis"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:contentDescription="@string/strzaleczka"
+        android:foregroundGravity="bottom"
+        android:paddingBottom="100dp"
+        android:rotation="0"
+        android:scaleY="1"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.654"
+        app:srcCompat="@drawable/kable" />
+
+    <ImageView
+        android:id="@+id/goodpoint"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:contentDescription="@string/gwiazdka"
+        android:rotation="0"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.6"
+        app:srcCompat="@drawable/goodpoint" />
+
+
+    <ImageView
+        android:id="@+id/star"
+        android:layout_width="340dp"
+        android:layout_height="340dp"
+        android:contentDescription="@string/gwiazdka"
+        android:rotation="0"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.6"
+        app:srcCompat="@drawable/gwiazdka" />
+
+    <ImageView
+        android:id="@+id/starRed"
+        android:layout_width="340dp"
+        android:layout_height="340dp"
+        android:contentDescription="@string/gwiazdkared"
+        android:rotation="180"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.6"
+        app:srcCompat="@drawable/minus_image_size" />
+
+    <ImageView
+        android:id="@+id/power"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.6"
+        app:srcCompat="@drawable/power" />
+
+    <ImageView
+        android:id="@+id/efekt_power"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.6"
+        app:srcCompat="@drawable/efekt_power" />
+
+    <ImageView
+        android:id="@+id/efekt_power_1"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:scaleX="1.5"
+        android:scaleY="1.5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.6"
+        app:srcCompat="@drawable/efekt_power_1" />
+
+    <ImageView
+        android:id="@+id/efekt_power_2"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:scaleX="1.5"
+        android:scaleY="1.5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.6"
+        app:srcCompat="@drawable/efekt_power_2" />
+
+    <ImageView
+        android:id="@+id/efekt_power_3"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:scaleX="1.5"
+        android:scaleY="1.5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.6"
+        app:srcCompat="@drawable/efekt_power_3" />
+
+    <ImageView
+        android:id="@+id/efekt_power_4"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:scaleX="1.5"
+        android:scaleY="1.5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.6"
+        app:srcCompat="@drawable/efekt_power_4" />
+
+    <TextView
+        android:id="@+id/chanceText"
+        android:layout_width="91dp"
+        android:layout_height="31dp"
+        android:gravity="center"
+        android:text="@string/chancesT"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/score"
+        app:layout_constraintEnd_toStartOf="@+id/speedText"
+        app:layout_constraintHorizontal_bias="0.608"
+        app:layout_constraintStart_toEndOf="@+id/scoreText"
+        app:layout_constraintTop_toTopOf="@+id/speedText"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/score"
+        android:layout_width="77dp"
+        android:layout_height="39dp"
+        android:gravity="center"
+        android:text="@string/score"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/arrow"
+        app:layout_constraintHorizontal_bias="0.478"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.179" />
+
+    <TextView
+        android:id="@+id/scoreText"
+        android:layout_width="91dp"
+        android:layout_height="31dp"
+        android:gravity="center"
+        android:text="@string/scoreT"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/score"
+        app:layout_constraintEnd_toEndOf="@+id/score"
+        app:layout_constraintStart_toStartOf="@+id/score"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/chances"
+        android:layout_width="78dp"
+        android:layout_height="39dp"
+        android:gravity="center"
+        android:text="@string/chances"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="@+id/score"
+        app:layout_constraintEnd_toStartOf="@+id/speed"
+        app:layout_constraintHorizontal_bias="0.514"
+        app:layout_constraintStart_toEndOf="@+id/score"
+        app:layout_constraintTop_toTopOf="@+id/score" />
+
+    <TextView
+        android:id="@+id/speed"
+        android:layout_width="78dp"
+        android:layout_height="39dp"
+        android:gravity="center"
+        android:text="@string/speed"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="@+id/score"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.471"
+        app:layout_constraintStart_toEndOf="@+id/arrow"
+        app:layout_constraintTop_toTopOf="@+id/score" />
+
+    <TextView
+        android:id="@+id/speedText"
+        android:layout_width="113dp"
+        android:layout_height="32dp"
+        android:gravity="center"
+        android:text="@string/speedT"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/speed"
+        app:layout_constraintEnd_toEndOf="@+id/speed"
+        app:layout_constraintHorizontal_bias="0.514"
+        app:layout_constraintStart_toStartOf="@+id/speed"
+        app:layout_constraintTop_toTopOf="@+id/scoreText"
+        app:layout_constraintVertical_bias="0.0" />
+
+
+    <Button
+        android:id="@+id/startgame"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:text="@string/startgame"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.833" />
+
+    <Button
+        android:id="@+id/gomenu"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:text="@string/gomenu"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.922" />
+
+    <TextView
+        android:id="@+id/textLevels"
+        android:layout_width="48dp"
+        android:layout_height="27dp"
+        android:gravity="center"
+        android:text="@string/textlevels"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/scoreText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.4" />
+
+    <TextView
+        android:id="@+id/setLevel"
+        android:layout_width="50dp"
+        android:layout_height="21dp"
+        android:text="@string/setLevel"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/chanceText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/textLevels"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.4" />
+
+    <TextView
+        android:id="@+id/textGoal"
+        android:layout_width="42dp"
+        android:layout_height="23dp"
+        android:gravity="center"
+        android:text="@string/textgoal"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/scoreText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.8"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.4" />
+
+    <TextView
+        android:id="@+id/setGoal"
+        android:layout_width="48dp"
+        android:layout_height="21dp"
+        android:text="@string/setgoal"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/chanceText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/textGoal"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.4" />
+
+    <TextView
+        android:id="@+id/countdown"
+        android:layout_width="141dp"
+        android:layout_height="51dp"
+        android:gravity="center"
+        android:text="@string/countdown"
+        android:visibility="invisible"
+        android:textSize="33sp"
+        app:layout_constraintBottom_toTopOf="@+id/arrow"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@+id/button2"
+        app:layout_constraintTop_toTopOf="@+id/starRed"
+        app:layout_constraintVertical_bias="0.852" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

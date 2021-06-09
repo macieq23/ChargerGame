@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">ChargerGame</string>
+    <string name="strzaleczka">strzalka</string>
+    <string name="button1">Rotate Left</string>
+    <string name="button2">Rotate Right</string>
+    <string name="gwiazdka">gwiazda</string>
+    <string name="score">0</string>
+    <string name="scoreT">Score</string>
+    <string name="speedT">Speed (ms)</string>
+    <string name="speed">2000</string>
+    <string name="chances">3</string>
+    <string name="chancesT">Chances</string>
+    <string name="gwiazdkared">starRed</string>
+    <string name="endtext">Score</string>
+    <string name="startgame">Go!</string>
+    <string name="button">Play!</string>
+    <string name="buttonLevel">Choose Level</string>
+    <string name="buttonExit">Exit</string>
+    <string name="textlevels">Level:</string>
+    <string name="textgoal">Goal:</string>
+    <string name="setLevel">1</string>
+    <string name="setgoal">20</string>
+    <string name="tvRecord">Best Level:</string>
+    <string name="tvRecord2">0</string>
+    <string name="gomenu">Menu</string>
+    <string name="tvSpeed2">2000</string>
+    <string name="tvSpeed">Best Speed:</string>
+    <string name="countdown">10</string>
+</resources>
